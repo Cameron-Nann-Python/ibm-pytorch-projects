@@ -19,6 +19,7 @@ This project examines the construction of a deep neural network with Pytorch to 
 !pip install scikit-learn==1.8.0
 !pip install matplotlib==3.10.7
 !pip install torch==2.9.1
+!pip install ucimlrepo
 ```
 
 ## 🗒️ Lab Notebook
