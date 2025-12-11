@@ -1,0 +1,22 @@
+// .devcontainer/devcontainer.json
+{
+  "name": "Python Conda Environment",
+  "image": "mcr.microsoft.com/vscode/devcontainers/anaconda:latest",
+  
+  "features": {
+    "ghcr.io/devcontainers/features/conda:1": {}
+  },
+  
+  // Optional: Set VS Code extensions to install automatically
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python", // Python extension
+        "ms-toolsai.jupyter" // Jupyter notebook support
+      ]
+    }
+  },
+  
+  // Optional: Run any final setup commands after the container is created
+  "postCreateCommand": "echo 'Conda environment initialized!'"
+}
