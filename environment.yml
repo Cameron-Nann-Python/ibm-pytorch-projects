@@ -19,3 +19,6 @@ dependencies:
   
   # For running notebooks
   - jupyterlab
+
+  # Datasets
+  - ucimlrepo
