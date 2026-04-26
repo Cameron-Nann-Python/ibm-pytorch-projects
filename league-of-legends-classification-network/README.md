@@ -1,7 +1,7 @@
 # 🎮 League of Legends Classification Neural Network
 
 ## 📓 Overview
-This project examines the construction of a neural network with Pytorch to classify either or not a League of Legends match was won based on culminative player statistics.
+This project examines the construction of a neural network with Pytorch to classify whether or not a League of Legends match was won based on culminative player statistics.
 
 ## 📘 Getting Started 
 1. Install VS Code and Anaconda Navigator
